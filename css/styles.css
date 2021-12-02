@@ -1,0 +1,63 @@
+body {
+    background-image: url(bkg-galaxy.jpg);
+    background-color: black;
+}
+nav {
+    background-color: lightsalmon;
+    display: inline-block;
+   
+}
+
+li {
+    list-style-type: none;
+    margin: 0;
+    padding: 10px;
+    float: right;
+    background-color: lightseagreen;
+}
+
+a:hover {
+    text-decoration: underline;
+  }
+
+li a {
+    text-decoration: none;
+}
+
+.logo {
+    width: 65px;
+    height: 65px;
+    display: inline;
+    float: left;
+}
+
+
+header {
+    text-align: center;
+    background-color: lightseagreen;
+    position: sticky;
+    top: 20px;
+    
+}
+
+.section-article {
+    background-color: green;
+    border: 2px dotted black;
+    position: absolute;
+    overflow: hidden;
+}
+
+.main-section {
+    background-color: grey;
+    border: 2px dotted black;
+    width: 66%;
+}
+
+aside {
+    background-color: indianred;
+    border: 2px dotted black;
+    width: 31%;
+    float: right;
+   
+}
+
